@@ -1,0 +1,60 @@
+.footer {
+    margin-top: auto;
+    background-color: #000;
+    font-size: 14px;
+    position: relative;
+
+    & .footer-top {
+        padding: 50px 0;
+
+        & .footer-about .logo {
+            color: aliceblue;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: 600;
+            padding-bottom: 10px;
+        }
+
+        & .footer-about .footer-contact {
+            color: aliceblue;
+            font-size: 15px;
+            line-height: 25px;
+            font-weight: 500;
+            padding-bottom: 50px;
+        }
+
+        & .footer-links {
+
+            & h4 {
+                color: aliceblue;
+                font-size: 18px;
+                font-weight: 600;
+                padding-bottom: 20px;
+            }
+
+            & ul li a {
+                color: #aaa8a8;
+                text-decoration: none;
+                font-size: 15px;
+                line-height: 30px;
+                display: inline-flex;
+                transition: color 0.3s ease, transform 0.3s ease;
+            }
+
+            & ul li a:hover {
+                color: #fff;
+                transform: scale(1.1);
+            }
+
+            & .logo-school {
+                margin-top: 30px;
+                height: 70px;
+                width: 100%;
+                background-image: url("../../img/logo.png");
+                background-repeat: no-repeat;
+                background-position: left center;
+                background-size: contain;
+            }
+        }
+    }
+}
